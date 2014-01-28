@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AlignMe Demo</title>
+	<link rel="stylesheet" href="https://raw.github.com/necolas/normalize.css/master/normalize.css">
+	<script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
+	<script src="alignMe.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div id="test" style="width:800px; height:600px; background:#bbb">
+			<div style="padding: 25px; background:#ccc; width:500px;">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, hic, sint, voluptatibus sapiente dolorum 	odio voluptates illo sunt earum nesciunt adipisci similique accusantium eum quia commodi repellat veniam. Maiores, recusandae?
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		jQuery("#test div").alignMe({
+			offsetY: 0,
+			offsetX: 0
+		});
+	</script>
+</body>
+</html>
